@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Latest compiled and minified CSS from BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery JavaScript -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    
+	<!-- JS -->
+	
+	<script src="jquery-1.10.2.js"></script>
+	<script src="popup.js"></script>
+	<!-- Clarifai API -->
+	<script type="text/javascript" src="clarifai.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Processing JS -->
+	<script src="processingjs.js"></script>
+
+	<title>GreenLight</title>
+</head>
+
+<body>
+	<h1><img src="logoAnimation.gif" alt="Image could not be displayed." width=46 height=120><span>G</span>reenLight</h1>
+	<h2>Safe for Work? <span id="total"></span></h2>
+	<p id="blank">Enter URL:</p>
+	<input id="theURL" type="text" placeholder="Is this image appropriate?"/>
+	<p></p>
+	<input id="checkURL" type="submit" value="Purify" />
+	<p><div id="tags"></div></p>
+	<!-- <p>Loading...</p>
+	<canvas data-processing-sources="loadingSign.pde"></canvas> -->
+</body>
+
+</html>
+
